@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXO</title>
+    <style>
+  
+    header{
+            background: url(IMG/header_bg.jpg);
+            margin: -1% -1% 0%;
+            height: 1185px;
+            padding: 4% 0% 0%;    
+            background-size: 100% 200px; 
+        }
+        .doom{
+            float: right;
+            margin-right: 10%;
+            color: #3d9f96;
+            text-decoration: underline;
+            text-indent: 3em;
+        }
+        div{
+            margin-left: 5%;    
+        }
+        a{
+          color: #FFFFFF;
+          text-decoration: none;
+          font-size: 1.5em;
+          margin-left: 2%;
+        }
+        header{
+            background: url(IMG/header_bg.jpg);
+            margin: -1% -1% 0%;
+            height: 1185px;
+            padding: 4% 0% 0%;     
+        }
+        hr{
+            border-bottom: #7e7e7e;
+        }
+        .logo{
+            width: 30%;
+            height: 2%;
+            margin-left: 35%;
+            margin-top: -4%;
+        }
+        .head2{
+            margin-top:8%;
+        }   
+
+       h2{
+        text-align: center;
+         color: #ababab;
+         font-weight: 50;
+         font-size: 3.2em;
+         margin-top: 4%;
+         font-family: sans-serif;
+       }
+       h2 span{
+           font-weight: 900;
+           color: #FFFFFF;
+       }
+        h3{
+           text-align: center;
+           color: #3d9f96;
+           font-size: 1.5em;
+           margin-top: -1%;
+           font-family: sans-serif;
+       } 
+       .head2 p{
+           text-align: center;
+           color: #ababab;
+            word-spacing: 0.5em;
+            letter-spacing: 0.1em;
+            font-size: 1em;
+            margin-top: 3%;
+            font-family: sans-serif;
+       }
+
+       button{
+           margin-top: 2%;
+           margin-left: 42%;
+           font-size: 1em;
+           padding-top: 1.5%;
+           padding-bottom: 1.5%;
+           width: 15%;
+           border-radius: 35px;
+           background-color: #3d9f96;
+           border: #3d9f96;
+           color: #FFFFFF;
+       }
+       
+       .Laptop{
+           margin-top: 5%;
+           width: 70%;
+           margin-left: 17%;
+       }
+       .bix{
+        background: url(IMG/ordinateur.png) no-repeat;
+            height: 50%;
+            width: 70%;
+            background-size: 90% 1000px;
+            margin-left: 20%;
+            margin-top: 9%;
+       }
+       .part2{
+           background-color: #f7f7f7;
+           margin-right: -1%;
+           margin-left: -1%;
+           padding-top: 3.5%;
+           padding-bottom: 2%;
+           padding-left: 5%;
+            padding-right: 5%;
+       }
+       .photo{ 
+           margin-left: 15%;
+       }
+       .photo img{
+        padding-left:6% 
+
+       }
+       .part2 h4{
+           text-align: center;
+           color: #3d9f96;
+           font-family: sans-serif;
+           font-size: 1.5em;
+           font-weight: 100;
+           margin-left: 2.5%;
+       }
+       .head3 h2{
+           font-size: 2em;
+           font-weight: 0;
+           text-align: center;
+           margin-right: 7%;
+           word-spacing: 0.2em;
+       }
+       .head3 span{
+           color:#322f36 ;
+       }
+       .head3 p{
+         text-align: center;
+         margin-top: 5%;
+         color: #ababab;
+         word-spacing: 0.5em;
+         letter-spacing: 0.1em;
+         font-family: sans-serif;
+         margin-right: 8%;
+       }
+       .part3 figure{
+           display: flex;
+           margin-top: 15%;
+       }
+       .part3 img{
+           width: 40px;
+           height: 34px;
+       }
+       .part4{
+        display: flex;
+        margin-left: 10%;
+        margin-top: 6%;
+        background: url(IMG/map_bg.png) no-repeat;
+       }
+       .part4 figcaption{
+           font-weight: 900;
+           font-family: sans-serif;
+           margin-top: 4%;
+       }
+       .left{
+        margin-right: 9%;
+       }
+       .left figcaption{
+           margin-left: 7%;
+       }
+       .left p{
+           margin-left: 16%;
+       }
+       .right{
+         margin-left: 9%;
+       }
+       .center .img1{
+        width: 250px;
+        height: 400px;
+       }
+       strong{
+           display: none;
+       }
+       .center .img2{
+           display: none;
+       }
+       .right p{
+           margin-right: 16%;
+           text-align: end;
+       }
+       .right figcaption{
+           margin-right: 7%;
+       }
+       .avatar{
+         
+          margin: 5% -1% 0%;
+          text-align: center;
+          background-color: #322f36;
+          padding-bottom: 2%;
+       }
+       .avatar figcaption{
+       margin-top: 1%;
+       font-family: sans-serif;
+       color: #ababab;
+       word-spacing: 0.5em;
+       letter-spacing: 0.1em;
+       }
+       .avatar h5{
+           color: #3d9f96;
+           font-family: sans-serif;
+       }
+       .jr{
+           display: none;
+       }
+       .avatar img{
+           margin-top: 5%;
+       }
+       .screenshot{
+           background-color: #f7f7f7;
+           margin: -2% -1% 0%;
+           padding:6% 5% 2% ;
+       }
+       .te{
+           display: none;
+       }
+       .screenshot .ts{
+           margin-right: 40%;
+           font-weight: 100;
+           color: rgb(53, 50, 50);
+           margin-right: 45%;
+       }
+       .screenshot span{
+           font-weight: 700;
+           font-size: larger;
+           color:#322f36;
+       }
+       .image{
+           display: flex;
+           margin-left: 13%;
+       }
+       .end{
+           margin-top: 5%;
+           margin-left: 11.5%;
+       }
+       .PART1 img{
+         height: 400px;
+         width: 430px;
+       }
+       .PART1 figure{
+           display: flex;
+           font-size: 2em;
+           font-family: sans-serif;
+       }
+       .pe{
+           display: none;
+       }
+       .ri{display: none;}
+       .PART1 span{
+           font-weight: 700;
+           color: #322f36;
+       }
+       .PART1 .rt{
+           margin-top: 1.5%;
+           color: rgb(53, 50, 50);
+       }
+       .PART1 .ji{
+        margin: -31% 42.5% 0%;
+        width: 45%;
+        color: #ababab;
+        word-spacing: 0.4em;
+        line-height: 1.5em;
+        padding-bottom: 3%;
+       }
+       .ju{
+           display: none;
+       }
+       .PART1 button{
+           width: 19%;
+       }
+       .PART2{
+           margin-top: 15%;
+           font-family: sans-serif;
+       }
+       .PART2 figcaption{
+           font-size: 2em;
+       }
+       .PART2 span{
+           font-weight: 800;
+           color: #322f36 ;
+       }
+       .PART2 img{
+         height: 495px;
+         width:400px ;
+         float: right;
+         margin: -5% 15% 0% 0%;
+       }
+       .PART2 p{
+        word-spacing: 0.4em;
+        line-height: 1.5em;
+        color: #ababab;
+        margin: 5% 0% 0% 3.5%;
+       }
+       .PART2 button{
+           width: 23%;
+           margin: 5% 0% 0% 3%;
+       }
+       .fo{
+           display: none;
+       }
+       .foot{
+        background-color: #f7f7f7;
+           margin: 7% -1% 0%;
+           padding:6% 5% 2% ;
+           display: flex;
+       }
+       .finlg{
+           margin-left: 13%;
+       }
+       .finlg figcaption{
+        word-spacing: 0.4em;
+        line-height: 1.5em;
+        color: #ababab;
+        margin: 4% 0% 0% 0%;
+       }
+       .center1{
+           text-align: start;
+           margin-top: 2.5%;
+           font-family: sans-serif;
+       }
+       .list h5{
+          
+          margin: -3% -3% 0% 0%;
+          line-height: 1.7em;
+          color: #ababab;
+       }
+       .center1 h4{
+           text-align: center;
+           font-size: 1.5em;
+           margin-top: -0.5%;
+       }
+       .finlgr{
+           margin-left:15% ;
+       }
+       .finlgr h5{
+           margin-top: -2%;
+           word-spacing: 0.5em;
+       }
+       .ix{
+           display: none;
+       }
+       .finlgr h4{
+        font-size: 1.5em;
+       }
+       .situation h5{
+        line-height: 1.7em;
+          color: #ababab;   
+       }
+       footer{
+            display: flex;
+        }
+        .finp{
+            margin:0.5% 0% 0% 28%;
+            width: 30%;
+        }
+        .finp img{
+            padding: 0% 3% 0%;
+            width: 23px;
+            height: 23px;
+        }
+        footer p{
+            margin-left: 18%;
+            width: 30%;
+        }
+        @media screen and (max-width:800px){
+            body{
+                background-color: red;
+                width: 800px;
+            }
+            header{
+                background: url(IMG/header_bg.jpg);
+                background-size: 1000px 500px; 
+                height: 450px;
+                width: 800px;
+                margin: -1% -0% 0%;
+            }
+            .tôt{
+                display: none;
+            }
+            .head2 h2{
+                margin-top:-4%;
+                font-size: 1.2em;
+            }
+            .head2 h3{
+                font-size: 0.7em;
+            }
+            .head2 p{
+                font-size: 0.5em;
+                word-spacing:0;
+                width: 260px;
+                margin-left: 250px;
+                margin-top: 1%;
+            }
+            .head2 button{
+                width: 200px;
+                height: 35px;
+                margin-left: 38%;
+            }
+            .head2 p br{
+                display: none;
+            }
+            .bix{
+         background: url(IMG/ordinateur.png) no-repeat;
+          background-size: 340px 300px;
+          background-position: center;
+          margin: 7% 0% 0% 18.5%;
+             }
+             .part2{
+           background-color: #f7f7f7;
+           width: 800px;
+           margin-left: 0%;
+            padding: 3.5% 0% 2% 0%;
+        }
+        .photo{ 
+           margin-left: 25%;
+       }
+       .photo img{
+        padding-left:3%;
+        width: 25px;
+        height: 25px;
+       }
+       .part2 h4{
+           display: none;
+       }
+       body .part3 .head3 h2{
+           position: relative;
+       }
+       .part3{
+           width: 800px;
+           margin-left: -1%;
+       }
+       .head3{
+           margin-left: 10%;
+       }
+       .head3 h2{
+           font-size: 1.2em;
+       }
+        .head3 p br{
+            display: none;
+        }
+       .head3 p{
+           font-size: 0.5em;
+           width: 190px;
+           word-spacing: 0em;
+         letter-spacing: 0em;
+         margin: 2% 0% 0% 33%;
+       }
+       .part4{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 0% 0% 40%;
+        background: none;
+       }
+       .part4 p br{
+           display: none;
+       }
+       .part4 p{
+       width: 400px;
+       margin: -1% 0% 0% 1%;
+       font-size: 0.6em;
+       background: url();
+       }
+       .part4 img{
+           width: 25px;
+           height: 20px;
+           background: none;
+       }
+       .part4 figcaption{
+           display: none;
+       }
+       .left figure{
+           margin-top: 8%;
+       }
+       .right{
+           margin: -1% 0% 0% 7%;
+           width: 200px;
+       }
+       .right img{
+         float:left;
+       }
+       .rigth figcaption{
+           display: none;
+           
+       }
+       .right figure{
+        margin: 9% 10% 5% 6%;
+        padding-top: 6%;
+       }
+       .right p{
+           margin-top: 6%;
+           margin: 6% 0% 6% -60%;
+           margin-left: -60%;
+           text-align:center;
+       }
+       strong{
+           display: flex;
+           font-weight: 900;
+           font-size: 0.7em;
+           margin: 1.2% 0% 0% 1%;
+           font-family: sans-serif;
+       }
+       .center .img1{
+        display: none;
+       }
+       .center .img2{
+           width: 170px;
+           height: 290px;
+           display: block;
+           margin-left: 2%;
+       }
+       .avatar{
+           width: 800px;
+           margin: 5% 0% 0%;
+       }
+       .avatar figcaption{
+        word-spacing: 0em;
+       letter-spacing: 0em;
+       width:290px;
+       margin-left:225px;
+       }
+       .avatar .jt{
+           display: none ;
+       }
+       .jr{
+           color: #3d9f96;
+           font-family: sans-serif;
+           display: block;
+           margin-top: 1%;
+       }
+       .avatar img{
+           width: 50px;
+           height: 50px;
+       }
+       .avatar figure figcaption br{
+           display: none;
+       }
+       .screenshot{
+           width: 800px;
+           margin: -2% 0% 0%;
+           padding: 6% 0% 2%;
+       }
+       .screenshot .te{
+           font-size: 1.3em;
+           display: block;
+           color: rgb(53, 50, 50);
+       }
+       .oi{
+           display: none;
+       }
+       .ts{
+           display: none;
+       }
+       .end{
+           width: 800px;
+           margin-left: -0%;
+       }
+       .image{
+           display: flex;
+           flex-direction: column;
+           margin-left: 33%;
+           width: 185px;
+       }
+       .image figure figcaption{
+           text-align: center;
+           width: 185px;
+           margin-top: 20px;
+       }
+       .PART1{
+           width: 430px;
+           text-align: center;
+       }
+       .PART1 figure{
+           display: flex;
+           flex-direction: column;
+           font-size: 2em;
+           font-family: sans-serif;
+           margin-left: 55%;
+           width: 330px;
+       }
+       .PART1 .pt{
+           display: none;
+       }
+       .pe{
+           display: block;
+       }
+       .ri{
+           display:inline-block;
+       }
+       .re{
+           display: none;
+       }
+       .rt{
+           font-size: 0.9em;
+       }
+       .ji{
+           display: none;
+       }
+       .PART1 figcaption{
+           text-align: center;
+       }
+       .PART1 .ju{
+        color: #ababab;
+        word-spacing: 0.2em;
+        letter-spacing: 0em;
+        line-height: 1em;
+        text-align: inherit;
+        margin-left: 50%;
+        display: block;
+        width: 365px;
+        margin-bottom: 3%;
+       }
+       .PART1 .ju br{
+           display: none;
+       }
+       .PART1 button{
+           width: 200px;
+           height: 50px;
+          margin-left: 65%;
+       }
+       .PART1 img{
+           width: 330px;
+           height: 295px;
+       }
+       .PART2{
+           width: 800px;
+           margin-left: -1.5%;
+           align-items: center;
+       }
+       .PART2 figure {
+           display: flex;
+           flex-direction: column-reverse;
+           font-size: 0.8em;
+           width: 400px;
+           margin-left:35%;
+       }
+       .PART2 figure figcaption{
+           text-align: center;
+       }
+       .PART2 img{
+           align-items: center;
+           width: 300px;
+           height: 395px;
+       }
+       .PART2 p{
+           text-align: center;
+           width: 375px;
+           word-spacing: 0em;
+           margin: 5% 0% 0% 35%;
+       }
+       .PART2 br{
+           display: none;
+       }
+        .ft{
+           display: none;
+       }
+       .kl{
+        margin-left:50%;
+        }
+     button.fo{
+           display:block;
+           width: 200px;
+           height: 50px;
+           margin-left: -6%;
+       }
+       .foot{
+           display: flex;
+           flex-direction: column;
+           width: 800px;
+           margin: 7% 0% 0%;
+           padding: 6% 0% 2%;
+       }
+       .finlg{
+           text-align: center;
+           width: 400px;
+       }
+       .finlg figcaption{
+           width: 435px;
+           margin-left: -30%;
+       }
+       .finlg figure{
+           margin-left: 45% ;
+           text-align: center;
+       }
+       .finlg br{
+           display: none;
+       }
+       .center1 h4{
+           margin-left: 1%;
+       }
+       .center1{
+           width: 400px;
+           text-align: center;
+           margin-left: 30%;
+       }
+       .finlgr{
+           width: 400px;
+           text-align: center;
+           margin-left: 30%;
+       }
+       .ex{
+           display: none;
+       }
+       .ix{
+           display: block;
+       }
+       footer{
+           display: flex;
+           flex-direction: column;
+           width: 800px;
+       }
+       footer p{
+           width:290px;
+           text-align: center;
+          margin-left: 35%;
+       }
+       .finp{
+           width: 680px;
+           margin: 2% 0% 0% 0%;
+       }
+       .finp img{
+            padding: 0% 9% 0%;
+            width: 28px;
+            height: 28px;
+        }
+        .space{
+            margin-left: 30%;
+            width: 450px;
+
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="tôt">
+                <a href="sayna exo.html">Home</a>
+                <a href="sayna exo.html">Features</a>
+                <a href="sayna exo.html" class="doom">Get it now</a>
+            </div>
+            <img src="IMG/SAYNA_Horizontal_-_Blanc.png" alt="logo" class="logo">
+        </nav>
+         <hr>
+        <div class="head2">
+            <h2>Promote your <span>New App!</span></h2>
+            <h3>NEW SOFTWARE IN THE APP STORE</h3>
+            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum <br>
+                id ligula porta felis euismod semper.
+                </p>
+                <form action="sayna exo.html" method="post">
+                <button type="submit">Buy Now</button>
+            </form>
+         </div>
+      <div class="bix"></div>
+    </header> 
+    <div class="part2">
+         <div class="photo">
+          <img src="IMG/social_icon1.png" alt="twiter">
+            <img src="IMG/social_icon2.png" alt="facebook" >
+            <img src="IMG/social_icon3.png" alt="googleplus">
+            <img src="IMG/social_icon4.png" alt="pinterest">
+            <img src="IMG/social_icon5.png" alt="ball">
+            <img src="IMG/social_icon6.png" alt="vimeo">
+            <img src="IMG/social_icon7.png" alt="T">
+            <img src="IMG/social_icon8.png" alt="A">
+        </div>
+    <h4>SOCIAL MEDIA OPTION</h4>
+</div>
+<div class="part3">
+    <div class="head3">
+     <h2>Check Our <span>New App .</span></h2>
+     <p>Aenean lacinia bibendum nulla sed consectetur. Donec sed <br>
+        odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+     </p>
+    </div>
+     <div class="part4">
+         <section class="left">
+             <figure><img src="IMG/icon_28px_1.png" alt=""><figcaption>Awesomeness</figcaption><strong>Awessoness</strong></figure>
+             <p>Aenean lacinia bibendum <br> nulla sed consectetur.</p>
+             <figure><img src="IMG/icon_28px_2.png" alt=""><figcaption>Awesomeness</figcaption><strong>Pro Concept</strong></figure>
+             <p>Aenean lacinia bibendum <br> nulla sed consectetur.</p>
+             <figure><img src="IMG/icon_28px_3.png" alt=""><figcaption>Awesomeness</figcaption><strong>Colorfull</strong></figure>
+             <p>Aenean lacinia bibendum <br> nulla sed consectetur.</p>
+         </section>
+         <section class="center">
+             <img src="IMG/photo.png" alt="" class="img1" >
+             <img src="IMG/iphone.png" alt="" class="img2">
+         </section>
+         <section class="right">
+             <figure><figcaption>Awesomeness</figcaption><img src="IMG/icon_28px_4.png" alt=""><strong>Skills</strong></figure>
+             <p>Aenean lacinia bibendum <br> nulla sed consectetur.</p>
+             <figure><figcaption>Awesomeness</figcaption><img src="IMG/icon_28px_5.png" alt=""><strong>Responsive</strong></figure>
+             <p>Aenean lacinia bibendum <br> nulla sed consectetur.</p>
+             <figure><figcaption>Awesomeness</figcaption><img src="IMG/icon_28px_6.png" alt=""><strong>Tested</strong></figure>
+             <p>Aenean lacinia bibendum <br> nulla sed consectetur.</p>
+         </section>
+     </div>
+</div>
+<div class="avatar">
+    <figure><img src="IMG/avatar_91px_1.png" alt="">
+     <figcaption>Nullam quis risus eget urna mollis ornare vel eu leo. <br> Nullam id dolor id nibh ultricies.</figcaption>
+     <h5 class="jt">- JOHN DO</h5><h5 class="jr">- john Doe</h5>
+   </figure> 
+</div>
+<br>
+<div class="screenshot">
+    <h3 class="ts">The best <span>Screnshots .</span></h3> <h3 class="te">The best <span>Screnshots</span></h3>
+    <section class="image">
+        <figure><img src="IMG/image_185px_1.jpg" alt=""><figcaption>Screenshot 1</figcaption></figure>
+        <figure><img src="IMG/image_185px_2.jpg" alt=""><figcaption>Screenshot 2</figcaption></figure>
+        <figure class="oi"><img src="IMG/image_185px_3.jpg" alt=""><figcaption>Screenshot 3</figcaption></figure>
+    </section>
+</div>
+<div class="end">
+    <div class="PART1">
+       <figure><img src="IMG/photo3.png" alt="" class="pt"> <img src="IMG/Composant_1_2.png" alt="" class="pe">
+        <figcaption class="rt">Litmus <span class="re">Tested .</span><span class="ri">Tested</span></figcaption></figure> 
+        <p class="ji">Aenean lacinia bibendum nulla sed <br> consectetur. Donec sed odio dui. Lorem <br> ipsum dolor sit amet, consectetur <br> adipiscing elit. Aenean eu leo quam.</p>
+        <p class="ju">Aenean lacinia bibendum nulla sed <br> consectetur. Donec sed odio dui. Lorem <br> ipsum dolor sit amet, consectetur <br> adipiscing <p>
+        <form action="koko.html" method="post">
+            <button type="submit">see it here</button>
+        </form>
+    </div>
+    <br>
+    <div class="PART2">
+        <figure>
+            <figcaption>100% <span> Responsive</span></figcaption>
+            <img src="IMG/Layer_255.png" alt="">
+        </figure>
+        <P>Donec sed odio dui. Donec id elit non <br> mi porta gravida at eget metus. <br> Vestibulum id ligula porta felis euismod <br> semper. Integer posuere erat a ante <br> venenatis dapibus posuere velit aliquet. <br> Cras mattis consectetur purus sit amet <br> fermentum. Nullam quis risus eget urna <br> mollis ornare vel eu leo. Maecenas <br> faucibus mollis interdum.
+        </P>
+        <form action="sayna exo.html" method="post">
+        <button type="submit" class="ft">Visit Website</button>
+        <div class="kl">
+        <button type="submit" class="fo">see it here</button>
+       </div>
+    </form>
+    </div>
+</div>
+<br>
+<div class="foot">
+    <div class="finlg">
+        <figure><img src="IMG/SAYNA_Horizontal_-_Noir.png" alt="" style="width: 320px;height: 55px;">
+            <figcaption>Donec sed odio dui. Donec id elit non mi <br> porta gravida at eget metus. Vestibulum id <br> ligula porta felis euismod semper. Nullam <br> quis risus eget urna.</figcaption>
+        </figure>
+    </div>
+    <div class="center1">
+        <h4>INFO</h4>
+        <section class="list">
+            <h5>Website <br> Features <br>Appstore <br> Unsubscribe</h5>
+        </section>
+    </div>
+    <div class="finlgr">
+        <h4>CONTACT</h4>
+        <section class="situation">
+         <h5 class="ex">SAYNA SARL <br> Business center 2ème étage à gauche <br>Tanjombato 101 Antananarivo NIF:5002 <br>997 537 Stat:85497112018010389 <br>Madagacar</h5>
+         <h5 class="ix">SAYNA SARL <br> Business center 2ème étage à gauche Tanjombato<br> 101 Antananarivo NIF:5002 <br>997 537 Stat:85497112018010389 <br>Madagacar</h5>
+        </section>
+    </div>
+</div>
+<footer>
+    <p> ©Copyrigth Sayna2016-All Rights Reserved</p>
+      <div class="finp">
+          <div class="space">
+          <img src="IMG/social_icon_19px_1.png" alt="">
+          <img src="IMG/social_icon_19px_2.png" alt="">
+          <img src="IMG/social_icon_19px_3.png" alt="">
+          <img src="IMG/social_icon_19px_4.png" alt="">
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
